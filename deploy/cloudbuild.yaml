@@ -5,6 +5,6 @@ steps:
         'build',
         '-f',
         'Dockerfile',
-        '--tag=gcr.io/$PROJECT_ID/cloudbuild-example:$BUILD_ID",
+        '--tag=gcr.io/$PROJECT_ID/cloudbuild-example:$BUILD_ID',
         '.',
       ]
